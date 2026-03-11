@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesronal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/564c524fa7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+    <nav>
+        <img src="portfolio.png" class="logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.linkedin.com/in/gopalakrishnan-m-39a916220/">About</a></li>
+            <li><a href="https://github.com/">Services</a></li>
+            <li><a href="https://gopala23.neocities.org/">Portfolio</a></li>
+            <li><a href="https://www.instagram.com/gopala_1612/">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="header-text">
+        <p>DevOps Engineer</p>
+        <h1>Hi, I'm<span>GopalaKrishnan M</span><br>From TamilNadu in India.</h1>
+
+    </div>
+   </div>
+</div>
+<!-------------------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="gopala-fotor.png" >
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>“ I'm an enthusiast happy to learn new things and easily adaptable.Linux Administrator with 4.3 years of experience in system administration, network configuration, and
+                            troubleshooting. Proficient in managing Linux environments (installation, patching, performance tuning,
+                            backups, and security). Comfortable working 24/7 shifts and Strong ability to diagnose and resolve issues
+                            quickly, ensure system uptime, and work in high-pressure, mission-critical environments. Excellent
+                            communicator and team player, with a commitment to continuous learning and operational excellence.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>  
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Cloud Infrastructue in AWS & Azure</span><br> ✔ Managing IAM users, Policies, and Roles.<br>
+                                ✔ Having good knowledge and hands-on experience in AWS services<br>✔ Creating and managing on-demand instances and on-spot instances based on the team's requirements.<br>
+                                ✔ Creating VPC based on the new deployment/project.<br>
+                                ✔ Good knowledge of AWS core services such as security, cloud computing, S3 bucket, Route 53,
+                                Lambda, and database services.<br>
+                                ✔ Configured Lambda function to automate the process.<br>
+                                ✔ strong knowledge in networking and security, Configuring DNS in Route 53.<br>
+                                ✔ Monitoring user activities using Cloudwatch.</li>
+                            <li><span>DevOps</span><br>✔ Deep Knowledge in creating plugins & CI, and CD pipelines for Jenkins.<br>✔ Good knowledge of Automation Tools like Ansible.<br>
+                                ✔ Hands-on experience in configuration Management & Yaml file<br>
+                                ✔ Follow regular operations procedures and complete all assigned tasks as per team requirements.<br>
+                                ✔ Strong knowledge of container and container Orchestration technologies like Docker, and Kubernetes.<br>
+                                ✔ Good knowledge of Scripting & programming language in Python</li>
+                            <li><span>Linux</span><br>✔ Installation of patches and upgrading the packages LINUX.<br>
+                                ✔ Creating the docker containers and hosting the applications.<br>
+                                ✔ Good knowledge in giving read, write, and Execute permissions.<br>
+                                ✔ Scheduling jobs using Crontab, Creating the users and privileges accessing.<br>
+                                ✔ Good knowledge of  Linux commands to provide proper workflow.<br>
+                                ✔ Good understanding of Linux commands to check system info.<br>
+                                ✔Creating tickets for alerts received from the monitoring system using customer-provided ticketing
+tools.Working in a Linux-based environment.<br>
+                                ✔Assigning permissions to files and directories.Configuring cron jobs and managing job automation.
+Checking log files and responding to technical queries from end users.
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                           
+                            <li><span>Nobroker Technologies, Bangalore - Linux Administrator - May 2024 - Feb 2025</span><br>Install, configure, and maintain RHEL, SUSE, Ubuntu, and Oracle Linux servers in both physical and
+                            virtual environments.<br>Perform system hardening, patching, kernel upgrades, and package management using YUM, DNF,
+                            Zypper, and APT.<br>
+                            Manage file systems, LVM, RAID, and storage provisioning using multipathing and SAN/NAS<br>
+                            configurations.<br>
+                            Maintain user, group, and permission management, including sudo policies and PAM configuration.<br>
+                            Configure SELinux / AppArmor, auditing, and log rotation for compliance and security.<br>
+                            Deploy and manage VMware ESXi, vCenter, KVM, and Xen hypervisors.<br>
+                            Create and manage VM templates, snapshots, cloning, and migration (vMotion / Live Migration).<br>
+                            Troubleshoot performance issues related to CPU, memory, and disk I/O on virtual machines.<br>
+                            Perform firmware upgrades and hardware monitoring for physical servers using tools like iLO, iDRAC, or
+                            IPMI.<br>
+                            Manage bootloader (GRUB2) configuration and perform OS recovery during failures.<br>
+                            Manage Linux instances on AWS (EC2, S3, RDS, IAM, CloudWatch), Azure (VMs, Blob Storage, VNet),
+                            and GCP (Compute Engine, Cloud Storage).<br>
+                            Automate cloud resource provisioning using Terraform or Ansible Cloud modules.
+                                </li>
+
+                            <li><span>Teleperformance, Bangalore - Linux Administrator - Feb 2022 - sep 2022</span><br>Installation, Configuration, and OS patches on RHEL6/7, SUSE Linux
+                            Creating volume groups, Logical volumes and extending them using LVM <br>
+                            Package Management using RPM, YUM and ZYPPER <br>
+                            User Management: User/Group creation, deletion, password reset, unlock
+                            Diagnosing, monitoring performance and network related issues using PS, top, netstat<br>
+                            Handling server hung, unplanned reboots and filling up RCA for complex issues
+                            Performs incident management and change management execution<br>
+                            Collaborate with Infrastructure, Development and QA to resolve production issues<br>
+                            File system management (including files and folder permissions, special permissions, ACL)<br>
+                            Performing system administration activities including installation and troubleshootingbr>
+                            Troubleshooting issues with live production Linux servers<br>
+                            Checking log files and answering technical queries of end user<br>
+                            Planning and resolving the issues within the specified down time
+                            </li>
+                            <li><span>A3 Tech Solutions, Bangalore - Linux Administrator -Feb 2020 - Jan 2022 </span><br>Linux administration, maintenance, and monitoring of day-to-day operations.
+                            Providing full-fledged support 24/7 for Unix/Linux servers.<br>
+                            Installing and configuring os RHEL ,Ubuntu ,SUSE Linux
+                            Creating tickets for alerts received from the monitoring system using customer-provided ticketing
+                            tools.Working in a Linux-based environment.<br>
+                            Troubleshooting and escalating issues when needed without affecting SLA.<br>
+                            Installing Linux servers in GUI mode. Working on server builds and decommissioning as per client
+                            requirements.<br>
+                            User administration including creating users, groups, and assigning permissions.Providing sudo
+                            permissions to users.<br>
+                            Assigning permissions to files and directories.Configuring cron jobs and managing job automation.<br>
+                            Checking log files and responding to technical queries from end users.<br>
+                            Installing software and packages using yum and rpm.<br>
+                            Mounting and unmounting drives and formatting drives with the proper file system using LVM
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2015-2019</span><br>SNS College of Technology,Coimbatore 79% </li>
+                            <li><span>2014-2015</span><br>HSLC, Govt Boys Hr sec School,Thiyagdurugam 82% </li>
+                            <li><span>2012-2013</span><br>SSLC, Govt Boys Hr sec School,Thiyagdurugam 88% </li>
+                        </ul>
+                    
+               
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Strength</h2>
+                    <p>Highly Pro-active<br>Problem-solving<br>Communication<br>Team collaborative<br>Time Management<br>Troubleshooting</p>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz1jdXMtOTM1NzI2MSZ1PTE4MzU5NiZleHQ9MQ==">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Skills</h2>
+                    <p> Cloud Services<br>Devops<br>Linux<br>Github<br>Jenkins<br>Ansible<br>Docker<br>Kubernetes<br>CI/CD Pipeline<br>Terraform<br>MySQL<br>Python<br>Shell Script</p>                    
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz05MTExOCZ1PTE4MzU5NiZleHQ9MQ==">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Courses & Certificates</h2>
+                    <p>AWS Solutions Architect Associate<br>DevOps Course<br>AWS DevOps Training and Certification</p>
+                    <a href="https://lms.intellipaat.com/certificate-link/?Yz0xOTQ1NTQmdT0xODM1OTYmZXh0PTE=">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-------------------------------Portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="aws.jpg" >
+                <div class="layer">
+                    <h3>Project in AWS</h3>
+                    <p>AWS Cloud Cost Optimization - Identifying Stale EBS Snapshots - Feb 2024.</p>
+                    <a href="https://github.com/gopala1612/project-AWS-cost"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="devops.jpg" >
+                <div class="layer">
+                    <h3>Project in DevOps</h3>
+                    <p>CI/CD Pipeline Design and Implementation - Mar 2024.</p>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7179543372523589632/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="linux.jpg" >
+                <div class="layer">
+                    <h3>Project in Webserver</h3>
+                    <p>Deploying a HTTPD Weserver using AWS EC2 - Dec 2023</p>
+                    <a href="https://github.com/gopala1612/deploy-app-using-HTTPD"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/gopala1612/" class="btn">See more</a>
+    </div>
+</div>  
+<!-- ----------- Contact Section ----------- -->
+<section id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+
+        <div class="contact-container">
+
+            <!-- Left side info -->
+            <div class="contact-left">
+                <h2>Let's Connect</h2>
+                <p>If you’d like to reach out regarding opportunities, projects, or collaboration, feel free to message me.</p>
+
+                <p><i class="fa-solid fa-envelope"></i> mgkrishnan357@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8220753445</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gopalakrishnan-m-39a916220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/gopala1612"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/gopala_1612/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Right side form -->
+            <div class="contact-right">
+                <form action="https://formsubmit.co/mgkrishnan357@gmail.com" method="POST">
+
+                    <!-- Disable Captcha -->
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!-- Redirect to thankyou.html -->
+                    <input type="hidden" name="_next" value="https://gopala23.neocities.org/thankyou.html">
+
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="phone" placeholder="Your Phone Number">
+
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+<section id="cv">
+    <div class="container">
+        <h2 class="sub-title">Download My CV</h2>
+        <p style="color:#ababab; margin:10px 0 20px;">
+            Click the button below to download my resume.
+        </p>
+
+        <a href="https://drive.google.com/uc?export=download&id=168_TLXz9WlV-5FOr7WdBGDrgmXIkptbe" 
+           class="btn" 
+           download>
+            Download CV
+        </a>
+    </div>
+</section>
+
+    <div class="copyright">
+        <p>Copyrights owned by <i class="fa-solid fa-heart-pulse"></i>Gopalakrishnan M</p>
+    </div>
+  </div>
+  <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
